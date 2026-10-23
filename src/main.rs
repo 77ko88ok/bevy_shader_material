@@ -71,7 +71,7 @@ fn setup(
             // uniform(0) に渡されるベースカラー（青色）
             color: LinearRgba::BLUE,
             // texture(1) & sampler(2) に渡されるテクスチャ画像（Bevyロゴアイコン）の非同期読み込み
-            color_texture: Some(asset_server.load("branding/icon.png")),
+            color_texture: Some(asset_server.load("branding/papa.png")),
             // アルファ合成モード（Blend: 透過対応）
             alpha_mode: AlphaMode::Blend,
         })),
